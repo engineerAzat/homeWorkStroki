@@ -13,8 +13,8 @@ public class Main {
         System.out.println(fullName.toUpperCase());
 
         System.out.println("\nTask3\n");
-        String fulName = "Иванов Семён Семёнович";
-        String nameTrue = fulName.replace("ё", "е");
+        fullName = "Иванов Семён Семёнович";
+        String nameTrue = fullName.replace("ё", "е");
         System.out.println("Данные Ф.И.О. сотрудника - " + nameTrue);
 
 
